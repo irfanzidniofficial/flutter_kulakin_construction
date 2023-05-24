@@ -27,7 +27,7 @@ class CustomFilledButton extends StatelessWidget {
           backgroundColor: orangeColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
-          ),  
+          ),
         ),
         child: Text(
           title,
@@ -69,6 +69,54 @@ class CustomTextButton extends StatelessWidget {
             fontSize: 16,
           ),
         ),
+      ),
+    );
+  }
+}
+
+class CustomFilledButtonIcon extends StatelessWidget {
+  final String title;
+  final double width;
+  final double height;
+  final VoidCallback? onPressed;
+
+  const CustomFilledButtonIcon({
+    Key? key,
+    required this.title,
+    this.width = double.infinity,
+    this.height = 48,
+    this.onPressed,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: width,
+      height: height,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10),
+        border: Border.all(
+          color: greyColor,
+          width: 1,
+        ),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Image.asset(
+            'assets/icons/ic_google.png',
+            width: 20,
+          ),
+          const SizedBox(
+            width: 10,
+          ),
+          Text(
+            title,
+            style: greyTextStyle.copyWith(
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ],
       ),
     );
   }
