@@ -9,7 +9,7 @@ Color blueColor = const Color(0xff0095DA);
 Color greyColor = const Color(0xFF858585);
 Color greenColor = const Color(0xFF059335);
 Color redColor = const Color(0xFFEF3B42);
-Color lightRed = const Color(0xFFFCDFE0);
+Color lightRedColor = const Color(0xFFFCDFE0);
 
 TextStyle orangeTextStyle = GoogleFonts.inter(
   color: orangeColor,

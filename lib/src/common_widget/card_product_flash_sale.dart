@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 
 import '../shared/theme.dart';
 
-
-
 class CardProductFlashSaleWidget extends StatelessWidget {
   final String image;
   final String price;
@@ -52,6 +50,7 @@ class CardProductFlashSaleWidget extends StatelessWidget {
                   borderRadius: BorderRadius.circular(15),
                   child: Image.asset(
                     image,
+                    fit: BoxFit.cover,
                   ),
                 ),
               ),

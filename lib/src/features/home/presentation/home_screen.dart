@@ -209,6 +209,50 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 15,
+              ),
+              child: Row(
+                children: [
+                  Text(
+                    "Rekomendasi",
+                    style: blackTextStyle.copyWith(
+                      fontSize: 16,
+                      fontWeight: bold,
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 8,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: lightRedColor,
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(3.0),
+                      child: Text(
+                        '02:17:39',
+                        style: redTextStyle.copyWith(
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Spacer(),
+                  Text(
+                    "Lihat Semua",
+                    style: orangeTextStyle.copyWith(
+                      fontSize: 16,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
             Container(
               padding: const EdgeInsets.only(
                 left: 10,

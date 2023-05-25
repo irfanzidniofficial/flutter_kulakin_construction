@@ -32,6 +32,17 @@ class MyApp extends StatelessWidget {
               foregroundColor: whiteColor,
             ),
           ),
+          appBarTheme: AppBarTheme(
+            iconTheme: IconThemeData(
+              color: greyColor,
+            ),
+            color: Colors.white,
+            elevation: 0,
+            titleTextStyle: blackTextStyle.copyWith(
+              fontSize: 16,
+              fontWeight: semiBold,
+            ),
+          ),
         ),
         onGenerateRoute: router.onRoute,
       ),
