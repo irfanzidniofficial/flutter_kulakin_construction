@@ -2,7 +2,7 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_kulakin_construction/src/features/accounts/presentation/account_screen.dart';
-import 'package:flutter_kulakin_construction/src/features/cart/presentation/cart_screen.dart';
+import 'package:flutter_kulakin_construction/src/features/cart/presentation/cart/cart_screen.dart';
 import 'package:flutter_kulakin_construction/src/features/pos/presentation/pos_screen.dart';
 import 'package:flutter_kulakin_construction/src/features/products/presentation/market_screen.dart';
 
