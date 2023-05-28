@@ -1,4 +1,5 @@
-import 'package:flutter_kulakin_construction/src/features/accounts/presentation/account_screen.dart';
+import 'package:flutter_kulakin_construction/src/features/accounts/presentation/account/account_screen.dart';
+import 'package:flutter_kulakin_construction/src/features/accounts/presentation/edit_profile/edit_profile_screen.dart';
 import 'package:flutter_kulakin_construction/src/features/authentication/presentation/signin/sign_in_screen.dart';
 import 'package:flutter_kulakin_construction/src/features/authentication/presentation/signup/sign_up_screen.dart';
 
@@ -42,6 +43,10 @@ class AppRouter {
       case "/method-transaction":
         return MaterialPageRoute(
           builder: (BuildContext context) => const MethodTransactionScreen(),
+        );
+      case "/edit-profile":
+        return MaterialPageRoute(
+          builder: (BuildContext context) => const EditProfileScreen(),
         );
       default:
         return MaterialPageRoute(

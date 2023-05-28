@@ -39,7 +39,7 @@ class _CartScreenState extends State<CartScreen> {
           const CardCartItemWidget(),
           const SizedBox(
             height: 20,
-          ),
+        ),
           const CardCartItemWidget(),
           const SizedBox(
             height: 30,
