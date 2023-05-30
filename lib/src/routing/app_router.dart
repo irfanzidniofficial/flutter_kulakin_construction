@@ -6,7 +6,7 @@ import 'package:flutter_kulakin_construction/src/features/authentication/present
 import 'package:flutter/material.dart';
 import 'package:flutter_kulakin_construction/src/features/cart/presentation/success_transaction/success_transation_screen.dart';
 import 'package:flutter_kulakin_construction/src/features/cart/presentation/transaction/method_transaction_screen.dart';
-import 'package:flutter_kulakin_construction/src/features/pos/presentation/pos_screen.dart';
+import 'package:flutter_kulakin_construction/src/features/pos/presentation/pos/pos_screen.dart';
 import 'package:flutter_kulakin_construction/src/features/products/presentation/market_screen.dart';
 import 'package:flutter_kulakin_construction/src/routing/main_navigation.dart';
 

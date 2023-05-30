@@ -14,15 +14,6 @@ class EditProfileScreen extends StatelessWidget {
           "Edit Profile",
         ),
         centerTitle: true,
-        automaticallyImplyLeading: false,
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.local_mall,
-            ),
-          ),
-        ],
       ),
       body: ListView(
         children: [

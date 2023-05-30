@@ -43,6 +43,24 @@ class MyApp extends StatelessWidget {
               fontWeight: semiBold,
             ),
           ),
+          tabBarTheme: TabBarTheme(
+            labelColor: orangeColor,
+            indicator: UnderlineTabIndicator(
+              borderSide: BorderSide(
+                color: orangeColor,
+                width: 2,
+              ),
+            ),
+            unselectedLabelColor: greyColor,
+            indicatorSize: TabBarIndicatorSize.label,
+            labelStyle: blackTextStyle.copyWith(
+              fontSize: 16,
+              fontWeight: semiBold,
+            ),
+            unselectedLabelStyle: blackTextStyle.copyWith(
+              fontSize: 16,
+            ),
+          ),
         ),
         onGenerateRoute: router.onRoute,
       ),
