@@ -46,12 +46,12 @@ class EditProfileScreen extends StatelessWidget {
           const SizedBox(
             height: 25,
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(
+          const Padding(
+            padding: EdgeInsets.symmetric(
               horizontal: 15,
             ),
             child: Column(
-              children: const [
+              children: [
                 CustomFormField(
                   title: "Nama Lengkap",
                 ),

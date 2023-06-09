@@ -137,11 +137,11 @@ class HomeScreen extends StatelessWidget {
               height: 200,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-                children: [
+                children: const [
                   Column(
                     children: [
                       Row(
-                        children: const [
+                        children: [
                           MenuButton(
                             image: 'assets/icons/ic_all.png',
                             label: 'Semua',
@@ -173,7 +173,7 @@ class HomeScreen extends StatelessWidget {
                         ],
                       ),
                       Row(
-                        children: const [
+                        children: [
                           MenuButton(
                             image: 'assets/icons/ic_kabel.png',
                             label: 'Kabel',
@@ -260,9 +260,9 @@ class HomeScreen extends StatelessWidget {
               height: 250,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-                children: [
+                children: const [
                   Row(
-                    children: const [
+                    children: [
                       CardProductFlashSaleWidget(
                         discount: '17',
                         discountPrice: 'Rp. 13.000',

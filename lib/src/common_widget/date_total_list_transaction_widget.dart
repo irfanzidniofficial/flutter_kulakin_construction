@@ -13,17 +13,17 @@ class DateTotalListTransactionWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(
+    return const Padding(
+      padding: EdgeInsets.symmetric(
         horizontal: 15,
       ),
       child: Column(
         children: [
-          const SizedBox(
+          SizedBox(
             height: 30,
           ),
           Row(
-            children: const [
+            children: [
               Text(
                 'Sunday, 02 August 2023',
               ),
@@ -33,7 +33,7 @@ class DateTotalListTransactionWidget extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(
+          SizedBox(
             height: 30,
           ),
         ],

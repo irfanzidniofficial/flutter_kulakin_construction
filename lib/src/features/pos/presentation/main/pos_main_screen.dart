@@ -7,20 +7,6 @@ class PosMainScreen extends StatelessWidget {
   const PosMainScreen({super.key});
 
   @override
-  // void initState() {
-  //   // _tooltipBehavior = TooltipBehavior(enable: true);
-  //   // super.initState();
-  // }
-
-  // List<SalesData> data = [
-  //   SalesData('Jan', 35),
-  //   SalesData('Feb', 28),
-  //   SalesData('Mar', 34),
-  //   SalesData('Apr', 32),
-  //   SalesData('May', 40)
-  // ];
-
-  @override
   Widget build(BuildContext context) {
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -124,6 +110,7 @@ class PosMainScreen extends StatelessWidget {
         const SizedBox(
           height: 30,
         ),
+
         // SizedBox(
         //   height: 200,
         //   child: SfCartesianChart(

@@ -33,8 +33,8 @@ class ListHistoryTransactionWidget extends StatelessWidget {
                   const SizedBox(
                     height: 5,
                   ),
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Text("10.00 AM -"),
                       SizedBox(
                         width: 5,
